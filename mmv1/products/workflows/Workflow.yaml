@@ -29,7 +29,6 @@ self_link: 'projects/{{project}}/locations/{{region}}/workflows/{{name}}'
 create_url: 'projects/{{project}}/locations/{{region}}/workflows?workflowId={{name}}'
 update_verb: 'PATCH'
 update_mask: true
-exclude_import: true
 timeouts:
   insert_minutes: 20
   update_minutes: 20
